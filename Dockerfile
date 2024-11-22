@@ -10,9 +10,9 @@ COPY . .
 
 RUN python manage.py migrate
 
-EXPOSE 8010
+EXPOSE 8000
 
-CMD ["python","manage.py","runserver","0.0.0.0:8010"]
+CMD ["python","manage.py","runserver","0.0.0.0:8000"]
 
 #The line you provided appears to be a configuration for running a Django development server. Let me break down the components:
 
